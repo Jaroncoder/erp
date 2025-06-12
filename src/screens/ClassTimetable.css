@@ -1,0 +1,17 @@
+.timetable-container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.timetable-image-wrapper {
+  margin-top: 20px;
+}
+
+.timetable-image {
+  width: 100%;
+  max-width: 1000px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

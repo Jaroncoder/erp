@@ -1,0 +1,45 @@
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #34495e;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: black;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #ae251f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #8c1f18;
+  }
+.table-header{
+  color: black;
+}
+
+  

@@ -1,0 +1,52 @@
+.semester-marks-container {
+    padding: 20px;
+  }
+  
+  .current-semester-btn {
+    padding: 10px 15px;
+    background-color: #1a73e8; /* Blue color for button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .current-semester-btn:hover {
+    background-color: #135ab5;
+  }
+  
+  .semester-section {
+    margin-bottom: 30px;
+  }
+  
+  .semester-section h3 {
+    margin-bottom: 10px;
+    color: #1a73e8;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #1a73e8;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+.table-header{
+  color: black;
+}
+  

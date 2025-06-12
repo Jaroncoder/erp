@@ -1,0 +1,38 @@
+/* RoleSelection.css */
+.role-selection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .role-selection-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .role-selection-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .role-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #AE251F;
+    color: white;
+    width: 200px;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  
+  .role-button:hover {
+    background-color: #8B1E18;
+  }
+  

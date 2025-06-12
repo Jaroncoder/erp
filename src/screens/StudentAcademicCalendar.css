@@ -1,0 +1,103 @@
+/* Calendar Container */
+.calendar-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+/* Navigation Buttons */
+.calendar-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.calendar-nav button {
+  padding: 10px 15px;
+  background-color: #AE251F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.calendar-nav button:hover {
+  background-color: #8A1D18;
+}
+
+/* Calendar Grid */
+.calendar-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 600px; 
+  overflow-y: auto; 
+}
+
+.calendar-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #AE251F;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Calendar Days */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+}
+
+.calendar-day {
+  min-height: 120px;
+  padding: 10px;
+  position: relative;
+  border: 1px solid #ddd;
+}
+
+.current-month {
+  color: black;
+}
+
+.other-month {
+  color: #aaa;
+}
+
+/* Events */
+.calendar-event {
+  margin-top: 5px;
+  background-color: #AE251F;
+  color: white;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+/* Reminder Popup */
+.reminder-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  border: 2px solid #AE251F;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content button {
+  background-color: #AE251F;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background-color: #8A1D18;
+}

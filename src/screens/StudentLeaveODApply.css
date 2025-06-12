@@ -1,0 +1,82 @@
+.leave-od-container {
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    color: #1a73e8;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .leave-od-form {
+    margin-bottom: 40px;
+  }
+  
+  .leave-od-form label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .leave-od-form select,
+  .leave-od-form input,
+  .leave-od-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .leave-od-form button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .leave-od-form button:hover {
+    background-color: #1558b3;
+  }
+  
+  /* Table Styling */
+  .application-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .application-history th,
+  .application-history td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .application-history th {
+    background-color: #1a73e8;
+    color: white;
+  }
+  
+  .application-history tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Status Colors */
+  .approved {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .pending {
+    color: orange;
+    font-weight: bold;
+  }
+  

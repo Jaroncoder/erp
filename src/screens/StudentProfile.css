@@ -1,0 +1,53 @@
+.profile-container {
+    width: 60%;
+    margin: 20px auto;
+    margin-left: 180px; /* Adjusted to move left */
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Profile Picture Styling */
+  .profile-picture-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-picture {
+    width: 120px; /* Passport size width */
+    height: 150px; /* Passport size height */
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    object-fit: cover;
+  }
+  
+  h2 {
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .attribute {
+    font-weight: bold;
+    text-align: left;
+    background-color: #f4f4f4;
+    width: 40%; /* Adjusted width */
+  }
+  
+  .value {
+    text-align: left;
+    width: 60%; /* Adjusted width */
+  }
+  

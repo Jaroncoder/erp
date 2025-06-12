@@ -1,0 +1,19 @@
+.exam-schedule-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.exam-schedule-image {
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.no-schedule-msg {
+  color: #aa0000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}

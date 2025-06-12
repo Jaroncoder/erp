@@ -1,0 +1,49 @@
+.notices-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.notices-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.notice-card {
+  background-color: #f9f9f9;
+  border-left: 6px solid #3498db;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.notice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notice-header h3 {
+  margin: 0;
+  color: #34495e;
+}
+
+.notice-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.notice-description {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.notice-issued {
+  font-size: 14px;
+  color: #555;
+}

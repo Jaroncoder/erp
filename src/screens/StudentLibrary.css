@@ -1,0 +1,90 @@
+/* Library Page Container */
+.library-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  /* Title */
+  .library-container h2 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #1e90ff; /* Changed to Blue */
+  }
+  
+  /* Tab Navigation */
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    background: #f4f4f4;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 8px;
+    color: black; /* Default text color */
+  }
+  
+  /* Active Tab Style */
+  .tabs button.active {
+    background: #1e90ff; /* Blue */
+    color: white;
+  }
+  
+  /* Ensure All Tabs are Always Visible */
+  .tabs button {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Tab Content */
+  .tab-content {
+    overflow-x: auto;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #1e90ff; /* Blue */
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  td {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    th, td {
+      padding: 8px;
+    }
+  
+    .tabs button {
+      padding: 8px 12px;
+    }
+  }
+
+.table-header{
+  color: black;
+}
+  

@@ -1,0 +1,85 @@
+.attendance-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  min-height: 100vh;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.attendance-table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.attendance-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.attendance-row:last-child {
+  border-bottom: none;
+}
+
+.attendance-cell {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+}
+
+.attendance-row.header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.present {
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+}
+
+.off {
+  color: orange;
+  font-weight: bold;
+}
+
+.summary-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.summary-item {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.summary-title {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.summary-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+.summary-value.present {
+  color: green;
+}

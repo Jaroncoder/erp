@@ -1,0 +1,79 @@
+/* Dashboard Layout Container */
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 250px; /* Sidebar width */
+  background-color: #2c3e50; /* Dark blue-gray background */
+  color: white; /* White text */
+  padding: 20px; /* Inner spacing */
+  height: 100vh; /* Full height */
+  position: fixed; /* Fixed sidebar */
+  top: 0;
+  left: 0;
+  overflow-y: auto; /* Scroll if content exceeds height */
+}
+
+/* Main Content Area */
+.dashboard-content {
+  margin-left: 250px; /* Ensure content doesn't overlap sidebar */
+  flex-grow: 1; /* Occupy remaining space */
+  padding: 20px; /* Space around content */
+  background-color: #f8f9fa; /* Light gray background */
+  overflow-y: auto; /* Enable scrolling */
+}
+
+/* Sidebar Title */
+.sidebar h2 {
+  font-size: 20px; /* Title font size */
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below title */
+}
+
+/* Sidebar Menu List */
+.sidebar ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+/* Sidebar Menu Items */
+.sidebar ul li {
+  padding: 10px 0; /* Space between items */
+}
+
+/* Sidebar Links */
+.sidebar ul li a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* White link text */
+  display: block; /* Make links block-level */
+  padding: 10px; /* Inner padding */
+  border-radius: 5px; /* Rounded corners */
+  transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Links */
+.sidebar ul li a:hover {
+  background-color: #34495e; /* Darker shade of blue-gray */
+}
+
+/* Logout Button */
+.logout-button {
+  margin-top: 20px; /* Space above logout button */
+  width: 100%; /* Full width button */
+  padding: 10px; /* Button padding */
+  font-size: 16px; /* Button text size */
+  color: white; /* White text */
+  background-color: #e74c3c; /* Red background */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+/* Logout Button Hover Effect */
+.logout-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}

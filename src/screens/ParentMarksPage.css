@@ -1,0 +1,23 @@
+/* Add below this line to your existing ParentMarksPage.css */
+
+.remark-outstanding {
+  color: #2ecc71; /* Bright Green */
+  font-weight: bold;
+}
+
+.remark-excellent {
+  color: #27ae60; /* Green */
+}
+
+.remark-very-good {
+  color: #2980b9; /* Blue */
+}
+
+.remark-good {
+  color: #f39c12; /* Orange */
+}
+
+.remark-needs-improvement {
+  color: #e74c3c; /* Red */
+  font-weight: bold;
+}
