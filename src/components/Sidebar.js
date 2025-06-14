@@ -26,7 +26,6 @@ const Sidebar = () => {
         <li><Link to="/student-courses">Course List</Link></li>
         <li><Link to="/student-semester-marks">Semester Marks</Link></li>
         <li><Link to="/student-arrear-details">Arrear Details</Link></li>
-        <li><Link to="/student-club-attendance">Club Attendance</Link></li>
       </ul>
 
       {/* Logout Button */}
